@@ -1,5 +1,5 @@
 {
-  "name": "types-league-gamemode",
+  "name": "league-gamemode-types",
   "version": "0.0.1",
   "description": "Typescript definitions for League gamemode",
   "license": "MIT",
