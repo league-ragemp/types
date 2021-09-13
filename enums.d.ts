@@ -1,6 +1,6 @@
-declare namespace LEAGUE {
+declare namespace League {
   /** The player's states of the game */
-  export const enum STATE {
+  const enum State {
     IDLE,
     ALIVE,
     DEAD,
@@ -9,14 +9,14 @@ declare namespace LEAGUE {
   }
 
   /** Player's teams */
-  export const enum TEAMS {
+  const enum Teams {
     ATTACKERS   = "ATTACKERS",
     DEFENDERS   = "DEFENDERS",
     SPECTATORS  = "SPECTATORS",
   }
 
   /** Shared entities */
-  export const enum ENTITIES {
+  const enum Entities {
     CONFIG,
     MAP,
     PLAYER_STAT,
@@ -25,7 +25,7 @@ declare namespace LEAGUE {
   }
 
   /** User groups */
-  export const enum GROUP {
+  const enum Group {
     ROOT,
     ADMIN,
     MODERATOR,

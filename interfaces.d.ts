@@ -1,8 +1,8 @@
-declare namespace LEAGUE {
-  export interface Vector2 {
+declare namespace League {
+  interface Vector2 {
     x: number
     y: number
-    xy: TYPES.Array2d
+    xy: Array2d
   
     at(index: number): number
     reset(): void
@@ -17,6 +17,6 @@ declare namespace LEAGUE {
     divide(vector: Vector2): Vector2
     scale(value: number, dest?: Vector2): Vector2
     normalize(dest?: Vector2): Vector2
-    toJSON(): TYPES.Array2d
+    toJSON(): Array2d
   }
 }
