@@ -1,5 +1,5 @@
-declare namespace LEAGUE {
-  export const enum CEF_RPC {
+declare namespace League {
+  export const enum CefRpc {
     /** This event is invoked by cef to request a player's profile */
     GAMEMENU_PROFILE              = 'cef_rpc.gamemenu.profile',
     /** This event is invoked by cef to request players */

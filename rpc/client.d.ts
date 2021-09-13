@@ -1,5 +1,5 @@
-declare namespace LEAGUE {
-  export const enum CLIENT_RPC {
+declare namespace League {
+  export const enum ClientRpc {
     /** This event is invoked by clientside to give player weapons */
     WEAPON_REQUEST             = 'client_rpc.weapon.request',
     /** This event is invoked by clientside to pass params into CEF console.log */
