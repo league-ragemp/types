@@ -1,0 +1,1 @@
+Typescript definitions for League gamemode
